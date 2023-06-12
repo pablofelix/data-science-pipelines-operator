@@ -53,7 +53,7 @@ spec:
         bundle: quay.io/redhat-appstudio-tekton-catalog/task-summary:0.1@sha256:9bc31ef4d9d5ef8b456d836899047556a0c0bacf1cf1bb0d8f303065e9cb2524
         name: summary
     params:
-    - description: Source Repository URL  
+    - description: Source Repository URL
       name: git-url
       type: string
     - default: ""
