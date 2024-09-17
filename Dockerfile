@@ -24,7 +24,7 @@ COPY controllers/ controllers/
 USER root
 RUN CGO_ENABLED=0 GOOS=${TARGETOS:-linux} GOARCH=${TARGETARCH} go build -a -o manager main.go
 
-FROM registry.redhat.io/ubi8/ubi-minimal:8.7
+FROM registry.redhat.io/ubi8/ubi-minimal:8.10
 WORKDIR /
 COPY --from=builder /workspace/manager .
 COPY config/internal config/internal
