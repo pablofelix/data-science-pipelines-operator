@@ -3,7 +3,7 @@ module github.com/opendatahub-io/data-science-pipelines-operator
 go 1.18
 
 require (
-	github.com/fsnotify/fsnotify v1.5.4
+	github.com/fsnotify/fsnotify v1.9.0
 	github.com/go-logr/logr v1.2.3
 	github.com/golang/glog v1.0.0
 	github.com/manifestival/controller-runtime-client v0.4.0
@@ -78,7 +78,7 @@ require (
 	golang.org/x/crypto v0.5.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/term v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858 // indirect
