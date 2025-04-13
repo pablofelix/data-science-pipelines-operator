@@ -1,6 +1,8 @@
 module github.com/opendatahub-io/data-science-pipelines-operator
 
-go 1.18
+go 1.21.0
+
+toolchain go1.22.9
 
 require (
 	github.com/fsnotify/fsnotify v1.5.4
