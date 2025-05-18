@@ -9,7 +9,7 @@ require (
 	github.com/manifestival/controller-runtime-client v0.4.0
 	github.com/manifestival/manifestival v0.7.2
 	github.com/onsi/ginkgo/v2 v2.8.4
-	github.com/onsi/gomega v1.27.1
+	github.com/onsi/gomega v1.37.0
 	github.com/openshift/api v3.9.0+incompatible
 	github.com/prometheus/client_golang v1.12.2
 	github.com/spf13/viper v1.7.0
